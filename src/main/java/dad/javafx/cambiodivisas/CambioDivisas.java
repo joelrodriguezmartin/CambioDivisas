@@ -36,11 +36,13 @@ public class CambioDivisas extends Application {
 		
 		divisaBox1 = new ComboBox<Divisa>();
 		divisaBox1.getItems().addAll(Euro, Libra, Dolar, Yen);
+		divisaBox1.getSelectionModel().selectFirst();;
 		divisaBox1.setPromptText("Divisa 1");
 		
 		
 		divisaBox2 = new ComboBox<Divisa>();
 		divisaBox2.getItems().addAll(Euro, Libra, Dolar, Yen);
+		divisaBox2.getSelectionModel().selectFirst();;
 		divisaBox2.setPromptText("Divisa 2");
 		
 		
